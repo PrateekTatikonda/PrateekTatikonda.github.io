@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <HTML>
-    <script src ="website.js"></script>
+    <script src ="website.js"></script><!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         </head>
     <style>
         body{
-            background-color:brown;
+            background-image: url(wall2.jpg) ;
+            background-size: 2540px 1560px;
             text-align: center;
         }
         h1 {padding-top: 30px;
@@ -44,35 +51,38 @@
             border-radius: 8px;
             
         }
-        div{
+        div p p{
             margin: auto;
         }
         .CLARKE{
-            position: absolute;
-            right: 40px;
-            width: 300px;
-            padding-bottom: 20px;
-            text-align: right;
+            width: 100%;
+            height: auto;
+            text-align:right;
+            margin-bottom: 15px;
             font-family: cursive;
+            padding-right: 80px;
             color:whitesmoke;
 
         }
         .KIT{
-            position: absolute;
-            left: 40px;
-            width: 300px;
-            padding: 25px;
-            text-align: left;
+            width: 100%;
+            height: auto;
+            text-align:left;
+            margin-bottom: 15px;
             font-family: cursive;
+            padding-right: 50px;
             color:whitesmoke;
+
         }
         .peter{
-            position: align-self start;;
-            width: 300px;
-            padding-bottom: 60px;
-            text-align: center;
+            width: 100%;
+            height: auto;
+            text-align:right;
+            margin-bottom: 15px;
             font-family: cursive;
+            padding-right: 80px;
             color:whitesmoke;
+
             
         }
         ul b{
@@ -100,6 +110,9 @@
         .typed-cursor{
             display: none;
         }
+        .info{
+            color: whitesmoke;
+        }
       
 
 
@@ -109,7 +122,7 @@
         <link rel="stylesheet" href="./project1style.css">
     <section>
         <h1>Hi User, Well-Watcher welcomes you..</h1>
-        <div class="logo"><img src="file:/D:/logo.png" alt="site logo" width="280" height="280" target="_blank"></div>
+        <div class="logo"><img src="logo.png" alt="site logo" width="280" height="280" target="_blank"></div>
             
     </head>
 <b>
@@ -119,15 +132,18 @@
        
 <p>
     <div class="imagecenter">            <!--"class" can be used to define multiple variables and can be used in styling -->
-        <img src="https://www.mixdexhq.com/wp-content/uploads/game-of-thrones.jpg" width="720" height="450" alt="example" border="10">
+        <img src="https://www.mixdexhq.com/wp-content/uploads/game-of-thrones.jpg" width="720" height="450" alt="example" >
 
     </div>
     <div>
         <h3><cite><b>One of the greatest dramas ever told. A magnum opus for the entire world needs to be remembered for a long time</b></div> </h3></cite>
-
-    <div><b>Writer: </b>George R.R Martin   </div>
+        <div class= "info">
+            <div><b>Writer: </b>George R.R Martin </div>
     <div><b>T.V Telecast: </b>HBO</div>
     <div><b>Directors: </b>David Benioff and D.B Weiss</div>
+</div>
+
+    
 </p>
     <body id="summary"><section><div><b>SUMMARY OF GAME OF THRONES:</b></div> 
         <div><cite>Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia</cite></div>
@@ -137,16 +153,16 @@
     <body>
         <ul>
         
-            <div class="CLARKE"><cite><b>EMILIA CLARKE</b></cite> AS <b> DAENYRYS TARGARYN</b><img src="https://ewedit.files.wordpress.com/2019/02/helen-sloan-hbo-6-1.jpg" width="300" height="200" border="3"></div>
+            <div class="CLARKE"><cite><b>EMILIA CLARKE</b></cite> AS <b> DAENYRYS TARGARYN   </b><img src="https://ewedit.files.wordpress.com/2019/02/helen-sloan-hbo-6-1.jpg" width="300" height="200" border="3"></div>
                 
         
         
             
-            <div class="KIT"><cite><b>KIT HARRINGTON</b></cite> AS <b>JON SNOW</b><img src="https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=1600&format=jpeg&auto=webp" width="300" height="200" border="3"></div>
+            <div class="KIT"><cite><b>KIT HARRINGTON</b></cite> AS <b>JON SNOW   </b><img src="https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=1600&format=jpeg&auto=webp" width="300" height="200" border="3"></div>
         
         
             
-            <div class="peter"><cite><b>PETER DINKLAGE</b></cite> AS <b> TYRION LANNISTER</b><img src="https://fromheartopaper.files.wordpress.com/2019/09/picsart_09-11-02.35.13.png" width="300" height="200" border="3"></ol></div>
+            <div class="peter"><cite><b>PETER DINKLAGE</b></cite> AS <b> TYRION LANNISTER   </b><img src="https://fromheartopaper.files.wordpress.com/2019/09/picsart_09-11-02.35.13.png" width="300" height="200" border="3"></ol></div>
         </li>
     </ul></body>
         
