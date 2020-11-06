@@ -23,7 +23,8 @@
     <style>
         body{
             background-image: url(wall2.jpg) ;
-            background-size: 2220px 2000px;
+            background-size: 2520px 2220px;
+            background-repeat: no-repeat;
             text-align: center;
         }
         h1 {padding-top: 30px;
@@ -130,9 +131,10 @@
     </style>
     <head>
         <link rel="stylesheet" href="./project1style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
     <section>
         <h1>Hi User, Well-Watcher welcomes you..</h1>
-        <div class="logo"><img src="logo.png" alt="site logo" width="280" height="280" target="_blank"></div>
+        <div class="logo"><img src="logo.png" alt="site logo" width="280" height="280" data-aos="fade-up" target="_blank"></div>
             
     </head>
 <b>
@@ -142,7 +144,7 @@
        
 <p>
     <div class="imagecenter">            <!--"class" can be used to define multiple variables and can be used in styling -->
-        <img src="https://www.mixdexhq.com/wp-content/uploads/game-of-thrones.jpg" width="720" height="450" alt="example" >
+        <img src="https://www.mixdexhq.com/wp-content/uploads/game-of-thrones.jpg" width="720" data-aos="fade-down" height="450" alt="example" >
 
     </div>
     <div>
@@ -163,16 +165,16 @@
     <body>
         <ul>
         
-            <div class="CLARKE"><cite><b>EMILIA CLARKE</b></cite> AS <b> DAENYRYS TARGARYN   </b><img src="https://ewedit.files.wordpress.com/2019/02/helen-sloan-hbo-6-1.jpg" width="300" height="200" border="3"></div>
+            <div class="CLARKE"><cite><b>EMILIA CLARKE</b></cite> AS <b> DAENYRYS TARGARYN   </b><img src="https://ewedit.files.wordpress.com/2019/02/helen-sloan-hbo-6-1.jpg" width="300" data-aos="fade-left" height="200" border="3"></div>
                 
         
         
             
-            <div class="KIT"><cite><b>KIT HARRINGTON</b></cite> AS <b>JON SNOW   </b><img src="https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=1600&format=jpeg&auto=webp" width="300" height="200" border="3"></div>
+            <div class="KIT"><cite><b>KIT HARRINGTON</b></cite> AS <b>JON SNOW   </b><img src="https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=1600&format=jpeg&auto=webp" width="300" data-aos="fade-right" height="200" border="3"></div>
         
         
             
-            <div class="peter"><cite><b>PETER DINKLAGE</b></cite> AS <b> TYRION LANNISTER   </b><img src="https://fromheartopaper.files.wordpress.com/2019/09/picsart_09-11-02.35.13.png" width="300" height="200" border="3"></ol></div>
+            <div class="peter"><cite><b>PETER DINKLAGE</b></cite> AS <b> TYRION LANNISTER   </b><img src="https://fromheartopaper.files.wordpress.com/2019/09/picsart_09-11-02.35.13.png" width="300" data-aos="fade-left"height="200" border="3"></ol></div>
         </li>
     </ul></body>
         
@@ -186,6 +188,14 @@
             <ol> <b><cite>THEME OF GAME OF THRONES:</b></cite></ol>
            </h4>
         </ul>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:200,
+        duration:1500,
+        once:false
+    });
+  </script>
 
     </body>
 </HTML>
